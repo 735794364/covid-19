@@ -1,0 +1,23 @@
+@function  px($px:30){
+  $rem:75;
+  @return ($px/$rem)+rem;
+
+}
+.about{
+  h1{
+
+  }
+  .flexPart{
+      display: flex;
+    justify-content: center;
+    .text{
+      font-size: px(90);
+      color: red;
+      //padding-bottom: px(90);
+    }
+    input{
+
+    }
+  }
+
+}
